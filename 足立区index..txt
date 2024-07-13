@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>足立区について</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding: 0 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: calc(33.333% - 20px);
+            margin: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            text-align: center;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>足立区について</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>概要</h2>
+            <p>足立区（あだちく）は、東京都の23区の一つで、東京の北東部に位置しています。足立区は、豊かな自然と歴史的な場所が融合する魅力的な地域です。区内には多くの公園や文化施設があり、住みやすい環境が整っています。</p>
+        </section>
+
+        <section>
+            <h2>名所</h2>
+            <ul>
+                <li><strong>舎人公園</strong> - 広大な敷地を持つ公園で、自然を楽しむことができます。ピクニックやバーベキューを楽しむ人々で賑わいます。</li>
+                <li><strong>西新井大師</strong> - 平安時代に創建された歴史的な寺院です。新年には多くの参拝客が訪れます。</li>
+                <li><strong>足立市場</strong> - 新鮮な魚介類や野菜が揃う市場です。地元の食材を購入するのに最適な場所です。</li>
+                <li><strong>千住エリア</strong> - 歴史と現代が融合するエリアで、多くの商店や飲食店が立ち並びます。</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>交通</h2>
+            <p>足立区は交通の便も良く、JR線や地下鉄、バスなど多くの公共交通機関が利用できます。特に、つくばエクスプレスや東京メトロ日比谷線、千代田線などが区内を通っており、都心へのアクセスも便利です。</p>
+        </section>
+
+        <section>
+            <h2>ギャラリー</h2>
+            <div class="gallery">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Nishiaraidaishi-gyoujido.jpg" alt="西新井大師">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Toneri_Park%27s_Pond.jpg/800px-Toneri_Park%27s_Pond.jpg" alt="舎人公園">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Adachi_Market_Entrance.JPG/800px-Adachi_Market_Entrance.JPG" alt="足立市場">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Senju_Sumida_River.JPG/800px-Senju_Sumida_River.JPG" alt="千住エリア">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Adachi_City_Office.jpg/800px-Adachi_City_Office.jpg" alt="足立区役所">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Kitasenju_Station_2020_06.jpg/800px-Kitasenju_Station_2020_06.jpg" alt="北千住駅">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 足立区情報サイト</p>
+    </footer>
+</body>
+</html>
